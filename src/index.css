@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-.nav {
-  border: 1px solid green;
-  width: 80vw;
-  margin: auto;
-  position: absolute;
-}
 .navbar {
   padding: 10px;
   text-align: center;

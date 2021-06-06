@@ -3,7 +3,6 @@ import API from './ApiParts/API';
 import WeatherApi from './WeatherApi/WeatherApi';
 import './index.css';
 import './css/Top.css';
-import Header from './Header';
 
 import {
     
@@ -18,28 +17,9 @@ const App=()=>{
 return(
     <>  
     
-   
-   
+   <WeatherApi/>  
+   <API/>
 
-          <Switch>
-          <Route exact path="/">
-          <API/>
-          </Route>
-          <Route exact path="/weatherapi">
-             <WeatherApi/>
-          </Route>
-          
-        </Switch>
-
- 
-    
-
-  
-  <Header className='nav'/> 
-     
-     
-         
- 
      </>
 );
 
