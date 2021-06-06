@@ -16,8 +16,8 @@ const App=()=>{
 
 return(
     <>  
-      {/* <API/> */}
-   <WeatherApi/>  
+     <API/>
+   {/* <WeatherApi/>   */}
  
 
      </>
