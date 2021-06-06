@@ -23,10 +23,10 @@ return(
 
           <Switch>
           <Route exact path="/">
-          <WeatherApi/>
+          <API/>
           </Route>
-          <Route exact path="/covid-api">
-            <API/>
+          <Route exact path="/weatherapi">
+             <WeatherApi/>
           </Route>
           
         </Switch>
