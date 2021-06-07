@@ -8,7 +8,6 @@ import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
 import Paper from '@material-ui/core/Paper';
 
-import Navbar from '../Navbar';
 import Search from './Search';
 import '../css/Top.css'
 
@@ -43,16 +42,13 @@ const fatchApi=async ()=>{
     SetCase(data.statewise);
 
 }
-console.log(Case);
+
     fatchApi();
 },[Case]);
 
 return(<>
 
 
-<Navbar
-    Heading=' All India Statewise Covid-19 Update'
-/>
 
 <Search/>
 { !Case ? ( 

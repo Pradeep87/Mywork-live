@@ -1,8 +1,11 @@
 import React from 'react';
 import API from './ApiParts/API';
-import WeatherApi from './WeatherApi/WeatherApi';
 import './index.css';
 import './css/Top.css';
+import Wapp from './Weatherapi/Wapi';
+import NavTwo from './NavTwo';
+import {Container} from 'react-bootstrap'
+
 
 import {
     
@@ -16,8 +19,26 @@ const App=()=>{
 
 return(
     <>  
-     <API/>
-   {/* <WeatherApi/>   */}
+  
+  <Container>
+  <NavTwo/>
+
+  <Switch>
+          <Route exact path="/">
+  <API/>
+
+          </Route>
+          <Route exact path="/covidapi">
+          <Wapp/>
+          
+          </Route>
+          
+        </Switch>
+
+</Container>
+
+     
+  
  
 
      </>
