@@ -48,8 +48,6 @@ const fatchApi=async ()=>{
 
 return(<>
 
-
-
 <Search/>
 
 { !Case ? ( 

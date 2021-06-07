@@ -9,15 +9,13 @@ const NavTwo = () => {
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-  <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+  <Navbar.Brand href="#home">My Projects</Navbar.Brand>
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse  id="responsive-navbar-nav" >
     <Nav className="ml-auto mr-4">
-    <NavLink className="rout" to="/">Covidapi</NavLink>
-    <NavLink className="rout" to="/covidapi">Random Quotes</NavLink>
-     
+    <NavLink className="rout" to='/'>Covidapi</NavLink>
+    <NavLink className="rout" to="/quotes">Random Quotes</NavLink>
     </Nav>
-    
   </Navbar.Collapse>
 </Navbar>
         </>

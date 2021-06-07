@@ -2,7 +2,7 @@ import React from 'react';
 import API from './ApiParts/API';
 import './index.css';
 import './css/Top.css';
-import Wapp from './Quotes/Quotes';
+import Quot from './Quotes/Quotes';
 import NavTwo from './NavTwo';
 import {Container} from 'react-bootstrap'
 
@@ -24,15 +24,8 @@ return(
   <NavTwo/>
 
   <Switch>
-          <Route exact path="/">
-  <API/>
-
-          </Route>
-          <Route exact path="/covidapi">
-          <Wapp/>
-          
-          </Route>
-          
+  <Route exact path='/' component={API}/>
+  <Route exact path='/quotes' component={Quot}/>   
         </Switch>
 
 </Container>
