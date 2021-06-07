@@ -22,7 +22,7 @@ return(
   
   <Container>
   <NavTwo/>
-
+<API/>
   <Switch>
   <Route exact path='/' component={API}/>
   <Route exact path='/quotes' component={Quot}/>   
