@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+h3 {
+  font-family: "Baloo Tammudu 2", cursive;
+}
+
 .navbar {
   padding: 10px;
   text-align: center;
@@ -34,6 +38,7 @@
   font-size: 18px;
   color: white;
   margin-right: 30px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,4 +52,10 @@
   height: 3rem;
   display: flex;
   justify-content: space-between;
+}
+
+.ti {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

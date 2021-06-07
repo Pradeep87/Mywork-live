@@ -51,12 +51,15 @@ return(<>
 
 
 <Search/>
+
 { !Case ? ( 
     <p> no data found </p> ) : ( 
 <div className="tabal">
 
 
 <TableContainer component={Paper}  >
+<div className="ti">
+<h3>Covid Update</h3></div>
       <Table aria-label="simple table">
        
        
