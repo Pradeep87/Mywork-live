@@ -22,11 +22,11 @@ return(
   <Tab  eventKey="home" title="Covid-19 Update">
   <API/>
   </Tab>
-  <Tab eventKey="profile" title="Random  Quotes">
+  <Tab eventKey="RandomQuotes" title="Random Quotes">
   <Quot/>
   </Tab>
   
-  <Tab eventKey="contact" title="Countries Population" >
+  <Tab eventKey="CountriesPopulation" title="Countries Population" >
   <Country/>
   </Tab>
   
