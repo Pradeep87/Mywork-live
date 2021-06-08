@@ -18,7 +18,9 @@ return(
     <>  
   
   <Container>
+  <p className='font-weight-bold'>Click to visit</p>
   <Tabs className='font-weight-bold' defaultActiveKey="profile" id="uncontrolled-tab-example">
+
   <Tab  eventKey="home" title="Covid-19 Update">
   <API/>
   </Tab>
