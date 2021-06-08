@@ -5,6 +5,7 @@ import './css/Top.css';
 import Quot from './Quotes/Quotes';
 
 import {Container} from 'react-bootstrap'
+import Country from './country/Country' ;
 
 import 
 {Tabs, Tab} from 'react-bootstrap';
@@ -17,15 +18,20 @@ return(
     <>  
   
   <Container>
-  <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-  <Tab eventKey="home" title="Covid-19 Update">
+  <Tabs className='font-weight-bold' defaultActiveKey="profile" id="uncontrolled-tab-example">
+  <Tab  eventKey="home" title="Covid-19 Update">
   <API/>
   </Tab>
   <Tab eventKey="profile" title="Random  Quotes">
   <Quot/>
   </Tab>
-  <Tab eventKey="contact" title="next coming soon . .  ." disabled>
+  
+  <Tab eventKey="contact" title="Countries Population" >
+  <Country/>
   </Tab>
+  
+  
+  
 </Tabs>  
         
   </Container>

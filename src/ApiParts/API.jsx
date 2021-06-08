@@ -51,7 +51,7 @@ return(<>
 <Search/>
 
 { !Case ? ( 
-    <p> no data found </p> ) : ( 
+    <h3 className='font-weight-bold mt-5' >no data found </h3> ) : ( 
 <div className="tabal">
 
 

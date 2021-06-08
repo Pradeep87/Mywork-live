@@ -51,7 +51,7 @@ update
 {count}
 </Button>
 </div>
-    { !quot ?(<p>no internrt </p>):(
+    { !quot ?(<h3 className='font-weight-bold mt-5' >no data found </h3>):(
 
         
     <div className='con p-5'>

@@ -60,3 +60,9 @@ h3 {
   align-items: center;
   margin-top: 10px;
 }
+
+.form-In {
+  width: 200px;
+
+  align-self: center;
+}
