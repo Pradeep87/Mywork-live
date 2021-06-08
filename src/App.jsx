@@ -3,15 +3,11 @@ import API from './ApiParts/API';
 import './index.css';
 import './css/Top.css';
 import Quot from './Quotes/Quotes';
-import NavTwo from './NavTwo';
+
 import {Container} from 'react-bootstrap'
 
-
-import {
-    
-    Switch,
-    Route,
-  } from "react-router-dom";
+import 
+{Tabs, Tab} from 'react-bootstrap';
 
 
 
@@ -21,18 +17,18 @@ return(
     <>  
   
   <Container>
-  <NavTwo/>
-
-  <Switch>
-  <Route exact path='/' component={API}/>
-  <Route exact path='/quotes' component={Quot}/>   
-        </Switch>
-
-</Container>
-
-     
-  
- 
+  <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
+  <Tab eventKey="home" title="Covid-19 Update">
+  <API/>
+  </Tab>
+  <Tab eventKey="profile" title="Random  Quotes">
+  <Quot/>
+  </Tab>
+  <Tab eventKey="contact" title="next coming soon . .  ." disabled>
+  </Tab>
+</Tabs>  
+        
+  </Container>
 
      </>
 );
